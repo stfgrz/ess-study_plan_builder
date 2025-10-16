@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSc Economics - Study Plan Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MSc Economics Study Plan Builder</h1>
+            <p>Drag and drop courses into your study plan</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Course List Sidebar -->
+            <aside class="course-list">
+                <h2>Available Courses</h2>
+                
+                <div class="add-course-section">
+                    <h3>Add New Course</h3>
+                    <input type="text" id="newCourseName" placeholder="Course name">
+                    <select id="newCourseCategory">
+                        <option value="A">Category A</option>
+                        <option value="B">Category B</option>
+                        <option value="C">Category C</option>
+                        <option value="extra">Extra</option>
+                        <option value="PhD">PhD</option>
+                    </select>
+                    <select id="newCourseType">
+                        <option value="msc">MSc (2 quarters)</option>
+                        <option value="phd">PhD (1 quarter)</option>
+                    </select>
+                    <button id="addCourseBtn">Add Course</button>
+                </div>
+
+                <div class="filter-section">
+                    <label>
+                        <input type="checkbox" class="category-filter" value="all" checked> Show All
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="A" checked> Category A
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="B" checked> Category B
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="C" checked> Category C
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="extra" checked> Extra
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="PhD" checked> PhD
+                    </label>
+                </div>
+
+                <div id="courseListContainer" class="courses-container"></div>
+            </aside>
+
+            <!-- Calendar Grid -->
+            <main class="calendar">
+                <h2>Study Plan Calendar</h2>
+                <div class="years-container">
+                    <!-- Year 1 -->
+                    <div class="year">
+                        <h3>Year 1</h3>
+                        <div class="quarters">
+                            <div class="quarter" data-year="1" data-quarter="1">
+                                <h4>Q1</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="1" data-quarter="2">
+                                <h4>Q2</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="1" data-quarter="3">
+                                <h4>Q3</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="1" data-quarter="4">
+                                <h4>Q4</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Year 2 -->
+                    <div class="year">
+                        <h3>Year 2</h3>
+                        <div class="quarters">
+                            <div class="quarter" data-year="2" data-quarter="1">
+                                <h4>Q1</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="2" data-quarter="2">
+                                <h4>Q2</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="2" data-quarter="3">
+                                <h4>Q3</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="2" data-quarter="4">
+                                <h4>Q4</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button id="clearPlanBtn">Clear Plan</button>
+                    <button id="savePlanBtn">Save Plan</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
