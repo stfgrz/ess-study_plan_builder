@@ -882,3 +882,368 @@ header p {
         font-size: 1.1rem;
     }
 }
+
+/* ============================================================================
+   Plan Management Controls
+   ============================================================================ */
+
+.plan-controls {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.plan-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.plan-selector label {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.plan-selector select {
+    padding: 6px 12px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    background: white;
+    color: #333;
+    font-size: 0.9rem;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.control-btn {
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.control-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+}
+
+.plan-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.action-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: translateY(-1px);
+}
+
+/* ============================================================================
+   Summary Panel
+   ============================================================================ */
+
+.summary-panel {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 320px;
+    max-height: calc(100vh - 140px);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    z-index: 100;
+}
+
+.summary-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-header h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.toggle-summary-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+    transition: background 0.2s;
+}
+
+.toggle-summary-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.summary-content {
+    padding: 15px;
+    max-height: calc(100vh - 220px);
+    overflow-y: auto;
+}
+
+.summary-section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.summary-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.summary-section h4 {
+    color: #495057;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.summary-total {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #667eea;
+    text-align: center;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 0.9rem;
+}
+
+.summary-label {
+    color: #6c757d;
+}
+
+.summary-value {
+    font-weight: 600;
+    color: #495057;
+}
+
+.summary-warnings {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.summary-warnings h4 {
+    color: #856404;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.summary-warnings ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 0.85rem;
+    color: #856404;
+}
+
+.summary-warnings li {
+    margin-bottom: 6px;
+}
+
+/* Credits badge */
+.credits-badge {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: #17a2b8;
+    color: white;
+}
+
+/* ============================================================================
+   Print Styles
+   ============================================================================ */
+
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    
+    header {
+        background: white;
+        color: #333;
+        border-bottom: 2px solid #667eea;
+        page-break-after: avoid;
+    }
+    
+    header h1 {
+        color: #667eea;
+    }
+    
+    /* Hide controls and non-essential elements */
+    .plan-controls,
+    .instructions-btn,
+    .course-list,
+    .add-course-section,
+    .toggle-section,
+    .filter-section,
+    .actions,
+    .placed-course-actions,
+    .modal,
+    .summary-panel {
+        display: none !important;
+    }
+    
+    /* Show main content full width */
+    .main-content {
+        display: block;
+    }
+    
+    .calendar {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    /* Print header */
+    .calendar::before {
+        content: "Study Plan: " attr(data-plan-name) " | Printed: " attr(data-print-date);
+        display: block;
+        font-size: 0.9rem;
+        color: #6c757d;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #dee2e6;
+        border-radius: 4px;
+    }
+    
+    /* Optimize grid for print */
+    .quarters {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        page-break-inside: avoid;
+    }
+    
+    .year {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
+    
+    .quarter {
+        border: 1px solid #dee2e6;
+        page-break-inside: avoid;
+    }
+    
+    .drop-zone {
+        border-style: solid;
+        min-height: auto;
+    }
+    
+    .placed-course {
+        page-break-inside: avoid;
+        margin-bottom: 5px;
+    }
+    
+    /* Remove animations and hover effects */
+    .placed-course.wrong-slot {
+        animation: none;
+        border: 2px solid #dc3545;
+    }
+    
+    /* Show notes in print */
+    .placed-course-notes,
+    .course-notes {
+        display: block !important;
+        font-size: 0.75rem;
+    }
+    
+    /* Print summary table */
+    .calendar::after {
+        content: "";
+        display: block;
+        page-break-before: always;
+    }
+}
+
+/* ============================================================================
+   Responsive Design Updates
+   ============================================================================ */
+
+@media (max-width: 1024px) {
+    .summary-panel {
+        position: static;
+        width: 100%;
+        max-height: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .plan-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .plan-selector,
+    .plan-actions {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .plan-selector {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .plan-selector select,
+    .control-btn,
+    .action-btn {
+        width: 100%;
+    }
+    
+    .summary-panel {
+        width: 100%;
+    }
+}

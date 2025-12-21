@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "base1",
+    "name": "Adv. Maths",
+    "category": "base",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base2",
+    "name": "Adv. Stats",
+    "category": "base",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base3",
+    "name": "Fss I",
+    "category": "base",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base4",
+    "name": "Competition Law",
+    "category": "base",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base5",
+    "name": "Fss II (A)",
+    "category": "base",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base6",
+    "name": "Fss II (B)",
+    "category": "base",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base7",
+    "name": "Econometrics",
+    "category": "base",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base8",
+    "name": "English",
+    "category": "base",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "base9",
+    "name": "2nd Language",
+    "category": "base",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "",
+    "credits": 6
+  },
+  {
+    "id": "a1",
+    "name": "Macroeconometrics",
+    "category": "A",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20532 | Luca Sala | SECS-P/05\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20532&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "a2",
+    "name": "Adv. Macro",
+    "category": "A",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20285 | Antonella Trigari | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20285&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "a3",
+    "name": "Adv. Micro",
+    "category": "A",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20296 | Nicola Pavoni | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20296&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "a4",
+    "name": "Microeconometrics",
+    "category": "A",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20295 | Thomas Emile Robert Le Barbanchon | SECS-P/05\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20295&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b1",
+    "name": "Empirical Industrial Organization and Market Design",
+    "category": "B",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20629 | Francesco Decarolis | SECS-P/06\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20629&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b2",
+    "name": "Monetary Policy",
+    "category": "B",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20297 | Roberto Perotti | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20297&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b3",
+    "name": "Political Economics",
+    "category": "B",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20901 | Guido Enrico Tabellini | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20901&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b4",
+    "name": "Public Economics",
+    "category": "B",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20271 | Alessandra Casarico | SECS-P/03\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20271&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b5",
+    "name": "International Macroeconomics and Finance",
+    "category": "B",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20970 | Tommaso Monacelli | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20970&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b6",
+    "name": "Development Economics",
+    "category": "B",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20287 | Erika Deserranno | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20287&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b7",
+    "name": "Game Theory",
+    "category": "B",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20290 | Pierpaolo Battigalli | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20290&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "b8",
+    "name": "Labour Economics",
+    "category": "B",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20294 | Tito Michele Boeri | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20294&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c1",
+    "name": "Taxation, Inequality and Growth",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20845 | Nicola Pavoni | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20845&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c2",
+    "name": "Welfare and Politics",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20633 | Vincenzo Galasso | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20633&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c3",
+    "name": "Comparative Politics",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20672 | Piero Stanig | SPS/04\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20672&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c4",
+    "name": "History of the Global Financial System",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20282 | Massimo Amato | SECS-P/12\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20282&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c5",
+    "name": "Population Dynamics and Economics",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20234 | Arnstein Aassve | SPS/04\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20234&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c6",
+    "name": "Politics of Conflict",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20673 | Ala Alrababah | SPS/04\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20673&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c7",
+    "name": "Bayesian Statistical Methods",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20231 | Beatrice Franzolini | SECS-S/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20231&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c8",
+    "name": "Decision Theory",
+    "category": "C",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20754 | Massimo Marinacci | SECS-S/06\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20754&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c9",
+    "name": "Econ of Crime",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20687 | Paolo Pinotti | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20687&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c10",
+    "name": "Econ of European Integration",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20269 | Carlo Altomonte | SECS-P/02\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20269&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c11",
+    "name": "Energy Policy and Sustainability",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20730 | Francesco Gulli' | SECS-P/06\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20730&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c12",
+    "name": "Econ of Digital Markets",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20847 | Michele Polo | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20847&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c13",
+    "name": "Monetary Policy and Financial Regulation",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20841 | Donato Masciandaro | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20841&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c14",
+    "name": "Principles of Finance",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20258 | Paolo Colla | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20258&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c15",
+    "name": "Behavioral Economics and Finance",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21047 | Nicola Gennaioli | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21047&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c16",
+    "name": "Data, Inequality and Human Capital",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20973 | Michela Carlana | SECS-P/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20973&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c17",
+    "name": "History of Globalization and Inequality",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20528 | Guido Alfani | SECS-P/12\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20528&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "c18",
+    "name": "Time Series Analysis",
+    "category": "C",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20236 | Sonia Petrone | SECS-S/01\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20236&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "phd1",
+    "name": "Accounting 6",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Leuz, Daske\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd2",
+    "name": "Institutions and Economic Growth in Comparative Perspective",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Botticini\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd3",
+    "name": "Political Economics Advanced",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Tabellini\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd4",
+    "name": "Structural Econometrics",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Adda, Goerlach\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd5",
+    "name": "Topics in Applied Econometrics",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Decarolis\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd6",
+    "name": "Advanced Econometrics 4 (Machine Learning in Economics)",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Schwarz\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd7",
+    "name": "Corporate Finance 4",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Carletti\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd8",
+    "name": "Financial Markets Microstructure",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Rindi\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd9",
+    "name": "Advanced Macro 1",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Pavoni\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd10",
+    "name": "Advanced Micro 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Feng\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd11",
+    "name": "Mathematics Preparatory",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Turansick\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd12",
+    "name": "Introduction to Mathematics",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Turansick\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd13",
+    "name": "Introduction to Probability",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Fortini\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd14",
+    "name": "Microeconomics 1",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Di Tillio\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd15",
+    "name": "Finance 1",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Rossi\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd16",
+    "name": "Macroeconomics 1",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q1",
+    "notes": "Pavoni\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd17",
+    "name": "Accounting 5",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Franco, Zhao\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd18",
+    "name": "Political Economics Advanced",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Tabellini\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd19",
+    "name": "Advanced Econometrics 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Sala\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd20",
+    "name": "Corporate Finance 3",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Bretscher\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd21",
+    "name": "Advanced Topics in Asset Pricing",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Croce\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd22",
+    "name": "Advanced Macro 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Grassi\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd23",
+    "name": "Topics in Economics & Finance 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Trigari, Le Barbanchon\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd24",
+    "name": "International Trade",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Ottaviano\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd25",
+    "name": "Econometrics 1",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Limodio\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd26",
+    "name": "Microeconomics 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Battigalli\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd27",
+    "name": "Finance 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Ortu\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd28",
+    "name": "Macroeconomics 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q2",
+    "notes": "Trigari\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd29",
+    "name": "Accounting 7",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Zhao\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd30",
+    "name": "Accounting 8",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Florou\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd31",
+    "name": "Development Economics (PhD)",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Fiorin\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd32",
+    "name": "Behavioral and Experimental Economics",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Nunnari\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd33",
+    "name": "Advanced Econometrics 3",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Favero\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd34",
+    "name": "Continuous Time Finance",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Battauz\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd35",
+    "name": "Advanced Macro 4",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Monacelli\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd36",
+    "name": "Advanced Micro 2 (Q3)",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Feng\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd37",
+    "name": "Topics in Economics & Finance 1",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Sabatucci\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd38",
+    "name": "Econometrics 2",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "TBA\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd39",
+    "name": "Microeconomics 3",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Ottaviano\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd40",
+    "name": "Finance 3",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Croce\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd41",
+    "name": "Macroeconomics 3",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q3",
+    "notes": "Maffezzoli\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd42",
+    "name": "Econometrics 3",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q4",
+    "notes": "Marcellino\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd43",
+    "name": "Microeconomics 4",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q4",
+    "notes": "Kos\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd44",
+    "name": "Finance 4",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q4",
+    "notes": "Manconi\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "phd45",
+    "name": "Macroeconomics 4",
+    "category": "PhD",
+    "type": "phd",
+    "timing": "Q4",
+    "notes": "Iovino\nhttps://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/courses-and-requirements",
+    "credits": 6
+  },
+  {
+    "id": "extra1",
+    "name": "Advanced Derivatives",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20245\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20245&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra2",
+    "name": "Advanced Fixed Income Analysis",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21041\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21041&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra3",
+    "name": "Advertising Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20302\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20302&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra4",
+    "name": "Algorithmic Decision-Making",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21050\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21050&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra5",
+    "name": "Accounting and Control in MNCS",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20219\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20219&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra6",
+    "name": "Financial Statements Analysis and Performance Measurement of Banks and Insurance Companies",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20968\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20968&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra7",
+    "name": "Analisi Strategiche, ESG E Valutazioni Finanziarie",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20846\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20846&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra8",
+    "name": "Applied Research Methods for Business Insight",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21038\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21038&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra9",
+    "name": "Artificial Intelligence and the Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "50323\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50323&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra10",
+    "name": "Asset Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20248\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20248&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra11",
+    "name": "Environmental Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50307\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50307&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra12",
+    "name": "Global Administrative Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50308\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50308&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra13",
+    "name": "Transnational Constitutional Law and Government Policies",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50145\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50145&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra14",
+    "name": "Advanced Labour Law (European Social Law)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "50290\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50290&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra15",
+    "name": "Bank and Fintech: Vision and Strategy",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20576\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20576&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra16",
+    "name": "Big Data for Business Decisions",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20564\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20564&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra17",
+    "name": "Blockchain and Crypto Assets",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20729\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20729&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra18",
+    "name": "Building and Scaling a Tech-Based Startup",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20870\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20870&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra19",
+    "name": "Business and Investment Law of African Countries",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "50293\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50293&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra20",
+    "name": "Business Process Management and Modelling",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20425\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20425&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra21",
+    "name": "Change Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20319\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20319&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra22",
+    "name": "Cities and Regions: Managing Growth and Change",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20555\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20555&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra23",
+    "name": "Cities Cultural Tourism and Urban Life",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20518\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20518&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra24",
+    "name": "Citizenship and Migration Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50193\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50193&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra25",
+    "name": "Collaborative Strategies for Innovation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20660\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20660&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra26",
+    "name": "Comportamento Organizzativo E Leadership",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20320\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20320&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra27",
+    "name": "Computational Approaches to Climate Change Challenges",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21037\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21037&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra28",
+    "name": "Computational Methods in Finance",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21040\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21040&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra29",
+    "name": "Credit Risk Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20249\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20249&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra30",
+    "name": "CSR Sustainability and Social Entrepreneurship",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20758\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20758&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra31",
+    "name": "Data Analysis for Managerial Decision Making",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20659\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20659&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra32",
+    "name": "Data Analytics for Financial Disclosures",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20722\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20722&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra33",
+    "name": "Data Mining for Marketing Business and Society",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20840\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20840&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra34",
+    "name": "Data Science and Machine Learning for Finance",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21046\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21046&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra35",
+    "name": "Deal Design and Valuation for Business Combinations and Joint Agreements",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20223\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20223&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra36",
+    "name": "Decision Making and Negotiation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20322\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20322&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra37",
+    "name": "Design Thinking and Business Innovation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20844\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20844&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra38",
+    "name": "Digital Business Transformation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20569\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20569&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra39",
+    "name": "Digital Communication",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20756\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20756&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra40",
+    "name": "Digital Constitutionalism and Artificial Intelligence Regulation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50312\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50312&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra41",
+    "name": "Diritto Assicurativo",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50305\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50305&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra42",
+    "name": "Diritto Bancario",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50303\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50303&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra43",
+    "name": "Diritto Finanziario",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50304\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50304&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra44",
+    "name": "Casi E Questioni Di Diritto Societario",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50146\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50146&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra45",
+    "name": "Diritto Commerciale - Operazioni Straordinarie",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50313\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50313&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra46",
+    "name": "Diritto Pubblico Dell'Economia",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50097\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50097&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra47",
+    "name": "Diritto Della Crisi D'Impresa (Italiano ed Europeo)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50203\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50203&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra48",
+    "name": "Diritto Della Proprieta' Intellettuale",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50258\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50258&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra49",
+    "name": "Diritto Penale - Focus su Criminalita' Economica",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "50285\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50285&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra50",
+    "name": "Diritto Tributario",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20408\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20408&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra51",
+    "name": "Dispute Resolution in a Globalized World",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50260\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50260&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra52",
+    "name": "Ecommerce",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20755\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20755&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra53",
+    "name": "Empirical Methods for Innovation Strategies",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20568\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20568&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra54",
+    "name": "Enterprise and Financial Risk Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21044\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21044&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra55",
+    "name": "EU Private International Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50169\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50169&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra56",
+    "name": "European Politics: Between Technocracy and Populism",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20679\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20679&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra57",
+    "name": "Event and Mega Event Management and Creative Industries",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20475\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20475&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra58",
+    "name": "Economics Preparatory Course",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20978\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20978&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra59",
+    "name": "Financial Statements Analysis (Advanced Course)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20221\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20221&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra60",
+    "name": "Finance and Development",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21033\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21033&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra61",
+    "name": "Finance for the Green Business and the Circular Economy",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20553\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20553&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra62",
+    "name": "Financial Management (Advanced Topics)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20250\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20250&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra63",
+    "name": "Firm Valuation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21031\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21031&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra64",
+    "name": "Forensic Accounting and Fraud Examination",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20984\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20984&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra65",
+    "name": "Fraud Detection and Risk Assessment",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20563\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20563&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra66",
+    "name": "Fundamental Rights in Europe",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50256\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50256&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra67",
+    "name": "Gender Law and Women'S RIGHTS",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50250\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50250&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra68",
+    "name": "Geopolitics for Business",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20763\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20763&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra69",
+    "name": "Global Financial Markets",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21042\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21042&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra70",
+    "name": "Global Legal Ethics",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50326\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50326&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra71",
+    "name": "Green Management and Corporate Sustainability",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20412\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20412&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra72",
+    "name": "Healthcare Management and Policy",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20495\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20495&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra73",
+    "name": "Heritage Museums and Communities Engagement",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20803\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20803&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra74",
+    "name": "Heritage Museums and Digital Cultures",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20802\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20802&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra75",
+    "name": "Industrial Marketing",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20307\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20307&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra76",
+    "name": "Innovation and Entrepreneurship in the Digital Age",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20856\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20856&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra77",
+    "name": "Innovation Growth and Sustainability",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20402\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20402&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra78",
+    "name": "Innovation in Services",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20292\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20292&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra79",
+    "name": "Innovation in the Sharing Economy: the Role of Platforms and Business Models",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20661\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20661&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra80",
+    "name": "Innovative Retail Design",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20529\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20529&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra81",
+    "name": "International and Comparative Taxation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50077\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50077&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra82",
+    "name": "International Corporate Finance",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20265\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20265&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra83",
+    "name": "International Trade and Investment Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50182\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50182&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra84",
+    "name": "Introduction to Partial Differential Equations",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20937\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20937&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra85",
+    "name": "Introduction to Sport Analytics",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20630\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20630&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra86",
+    "name": "Investing in Alternative - Illiquid Assets",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21054\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21054&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra87",
+    "name": "IT Consulting",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20209\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20209&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra88",
+    "name": "Key Issues in EU Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50204\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50204&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra89",
+    "name": "Long Term Investments and Public Private Partnerships",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20634\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20634&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra90",
+    "name": "Luxury Companies in the Global Landscape",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20671\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20671&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra91",
+    "name": "Machine Learning and Causal Inference for Marketing Decisions",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20969\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20969&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra92",
+    "name": "Management Consulting",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20325\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20325&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra93",
+    "name": "Management of Fashion and Lifestyle Companies",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21039\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21039&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra94",
+    "name": "Management of International Organizations and NGO's",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20516\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20516&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra95",
+    "name": "Managerial Issues in Made in Italy Industries",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20521\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20521&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra96",
+    "name": "Managing Business Government Relations",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20515\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20515&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra97",
+    "name": "Managing People and Organizations",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21051\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21051&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra98",
+    "name": "Managing the Growing Entrepreneurial Venture",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20522\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20522&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra99",
+    "name": "Managing the Multinational Corporation",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20539\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20539&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra100",
+    "name": "Marketing Dei Servizi",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20309\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20309&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra101",
+    "name": "Marketing Esperienziale",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20310\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20310&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra102",
+    "name": "International Marketing",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20311\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20311&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra103",
+    "name": "Market Structure and Information-Based Models",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21048\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21048&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra104",
+    "name": "Mergers and Acquisitions",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20256\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20256&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra105",
+    "name": "Movie Industry",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20477\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20477&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra106",
+    "name": "Negotiation Mediation and International Dispute Settlements",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "50325\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50325&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra107",
+    "name": "Network Leadership",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20979\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20979&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra108",
+    "name": "NLP and Machine Learning for Business Decisions",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20985\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20985&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra109",
+    "name": "Operations Management Lab",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20346\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20346&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra110",
+    "name": "Personnel and Labour Economics for Managers",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21032\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21032&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra111",
+    "name": "Population Dynamics and Economics",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20234\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20234&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra112",
+    "name": "Predictive and Generative AI for Business Decisions",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21035\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21035&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra113",
+    "name": "Pricing Analytics",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20631\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20631&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra114",
+    "name": "Private Equity and Venture Capital",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20260\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20260&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra115",
+    "name": "Project Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20329\nhttps://didattica.unibocconi.edu/ts/tsn_anteprima.php?cod_ins=20329&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra116",
+    "name": "Project Management and Funding of International Programs",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20278\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20278&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra117",
+    "name": "Public Management for Competitiveness",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20273\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20273&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra118",
+    "name": "Public Networks: Governance and Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20967\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20967&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra119",
+    "name": "Quantitative Portfolio Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "21045\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21045&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra120",
+    "name": "Real Estate Finance",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20261\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20261&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra121",
+    "name": "Advanced Auditing",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20226\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20226&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra122",
+    "name": "Corporate Financial Turnaround and Distressed Value Investing",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20267\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20267&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra123",
+    "name": "Sales Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20429\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20429&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra124",
+    "name": "Marketing Applied Semiotics",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20314\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20314&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra125",
+    "name": "Social Media Marketing",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20543\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20543&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra126",
+    "name": "Social Movements Markets and Firms",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20670\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20670&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra127",
+    "name": "Sports Business and Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20552\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20552&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra128",
+    "name": "Sports Law",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "50206\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50206&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra129",
+    "name": "State Competition and Conflicts in the Cyber Space",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20764\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20764&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra130",
+    "name": "Strategic Management in Family Businesses",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20525\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20525&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra131",
+    "name": "Strategic Options for Global Markets",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20566\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20566&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra132",
+    "name": "Structured and Project Finance",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20439\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20439&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra133",
+    "name": "Supply Chain Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20348\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20348&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra134",
+    "name": "Sustainable Communication and Retailing",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21036\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21036&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra135",
+    "name": "Sustainable Urban Regeneration",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20850\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20850&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra136",
+    "name": "Television",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20476\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20476&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra137",
+    "name": "Current Topics in Company and Business Law (Listed Companies)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50314\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50314&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra138",
+    "name": "The Future of Europe (Civica Course)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20774\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20774&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra139",
+    "name": "The Making of the Present - a Global History of Globalization (Civica Course)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20905\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20905&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra140",
+    "name": "The Road to the Green Transition (Civica Course)",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S2",
+    "notes": "20975\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20975&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra141",
+    "name": "Trade Marketing and Category Management",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20317\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20317&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra142",
+    "name": "Value Chains and Business Models in Fashion & Luxury",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "20524\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20524&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra143",
+    "name": "Wealth Management for Individual and Institutional Clients",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "21043\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=21043&anno=2026&IdPag=8192",
+    "credits": 6
+  },
+  {
+    "id": "extra144",
+    "name": "White-Collar Crime",
+    "category": "extra",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "50249\nhttps://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=50249&anno=2026&IdPag=8192",
+    "credits": 6
+  }
+]

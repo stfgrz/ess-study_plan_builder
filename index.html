@@ -11,6 +11,25 @@
         <header>
             <h1>MSc Economics Study Plan Builder</h1>
             <p>Drag and drop courses into your study plan</p>
+            
+            <!-- Plan Management Controls -->
+            <div class="plan-controls">
+                <div class="plan-selector" id="planSelector">
+                    <label for="planSelect">Plan:</label>
+                    <select id="planSelect"></select>
+                    <button id="newPlanBtn" class="control-btn" title="New Plan">+ New</button>
+                    <button id="renamePlanBtn" class="control-btn" title="Rename Plan">✎ Rename</button>
+                    <button id="duplicatePlanBtn" class="control-btn" title="Duplicate Plan">⎘ Duplicate</button>
+                    <button id="deletePlanBtn" class="control-btn" title="Delete Plan">🗑 Delete</button>
+                </div>
+                
+                <div class="plan-actions">
+                    <button id="importPlanBtn" class="action-btn">📥 Import</button>
+                    <button id="exportPlanBtn" class="action-btn">📤 Export</button>
+                    <button id="printPlanBtn" class="action-btn">🖨 Print</button>
+                </div>
+            </div>
+            
             <button id="instructionsBtn" class="instructions-btn" onclick="openInstructionsModal()">📋 Course Selection Guidelines</button>
         </header>
 
@@ -39,6 +58,7 @@
                         <option value="S1">Semester 1 (Q1-Q2)</option>
                         <option value="S2">Semester 2 (Q3-Q4)</option>
                     </select>
+                    <input type="number" id="newCourseCredits" placeholder="Credits (default: 6)" value="6" min="1" max="30">
                     <textarea id="newCourseNotes" placeholder="Optional notes (e.g., professor, schedule, prerequisites...)"></textarea>
                     <button id="addCourseBtn">Add Course</button>
                 </div>
@@ -151,6 +171,20 @@
                 </div>
             </main>
         </div>
+        
+        <!-- Summary Panel (sticky) -->
+        <aside class="summary-panel" id="summaryPanel">
+            <div class="summary-header">
+                <h3>Summary</h3>
+                <button id="toggleSummary" class="toggle-summary-btn" title="Toggle summary">−</button>
+            </div>
+            <div class="summary-content">
+                <div class="summary-section">
+                    <h4>Total Credits</h4>
+                    <div class="summary-total">0</div>
+                </div>
+            </div>
+        </aside>
     </div>
 
     <!-- Notes Modal -->
