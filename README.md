@@ -1,59 +1,91 @@
 # MSc Economics Study Plan Builder
 
-A web-based application for planning your MSc in Economics course schedule with drag-and-drop functionality.
+A web-based application for planning your Bocconi MSc in Economics and Social Sciences course schedule with drag-and-drop functionality.
 
 ## Features
 
-- **Drag and Drop Interface**: Easily drag courses from the list and drop them into your study plan
-- **2-Year Calendar**: Plan your courses across 2 years with 4 quarters each (8 quarters total)
+### Core Functionality
+- **Drag and Drop Interface**: Easily drag courses from the sidebar and drop them into your study plan
+- **2-Year Calendar**: Plan your courses across 2 years, divided into 2 semesters each
+- **Multiple Courses per Quarter**: Add as many courses as needed to each semester
 - **Two Course Types**:
-  - **MSc Courses**: Last for 2 consecutive quarters
-  - **PhD Courses**: Last for 1 quarter
-- **Five Course Categories**: A, B, C, Extra, and PhD
-- **Add Custom Courses**: Create your own courses on the fly
-- **Filter Courses**: Filter the course list by category
-- **Automatic Validation**: Prevents overlapping courses and validates placement
-- **Local Storage**: Your study plan is automatically saved in your browser
+  - **MSc Courses**: Span an entire semester (2 consecutive quarters)
+  - **PhD Courses**: Occupy 1 quarter only
+
+### Course Management
+- **Six Course Categories**: Base, A (Core), B (Field), C (Topics), Extra, and PhD
+- **228 Pre-loaded Courses**: Comprehensive course catalog with metadata
+- **Add Custom Courses**: Add your own courses with name, category, timing, and optional notes
+- **Delete Courses**: Remove courses from the repository (hover over course, click ×)
+- **Course Notes**: Each course can include detailed notes (course code, professor, syllabus link, disciplinary field, etc.)
+- **Edit Notes**: Click on placed courses to edit their notes
+
+### Filtering & Organization
+- **Category Filter**: Filter courses by category (Base, A, B, C, Extra, PhD)
+- **Timing Filter**: Filter by semester (S1, S2) or quarter (Q1, Q2, Q3, Q4)
+- **Notes Toggle**: Show/hide course notes globally
+
+### Validation & Feedback
+- **Timing Validation**: Courses placed in wrong quarters are highlighted in red with pulsing animation
+- **Wrong Slot Warning**: Visual "⚠ Wrong timing!" indicator for misplaced courses
+
+### Data Persistence
+- **Local Storage**: Your study plan and course list are automatically saved in your browser
+- **Auto-save**: Changes are saved immediately
+
+### Additional Features
+- **Course Selection Guidelines**: Built-in instructions tab explaining program requirements
+- **Clickable Syllabus Links**: Course notes with URLs open in new tabs
+- **Color-coded Categories**: Visual distinction between course types
+- **Responsive Design**: Works on desktop and mobile devices
 
 ## How to Use
 
-1. **Open the Application**: Simply open `index.html` in your web browser
+1. **Open the Application**: Open `index.html` in your web browser
 
-2. **View Available Courses**: The left sidebar shows all available courses with their categories and durations
+2. **View Guidelines**: Click "📋 Course Selection Guidelines" button for program requirements
 
-3. **Add Custom Courses**: 
-   - Enter a course name
-   - Select a category (A, B, C, Extra, or PhD)
-   - Select a type (MSc for 2 quarters or PhD for 1 quarter)
+3. **Browse Courses**: 
+   - Use category checkboxes to filter by type (Base, A, B, C, Extra, PhD)
+   - Use timing checkboxes to filter by semester or quarter
+   - Toggle "Show Notes" to view course details
+
+4. **Add Custom Courses**: 
+   - Enter course name
+   - Select category and type (MSc/PhD)
+   - Select timing (Semester 1/2 for MSc, Quarter 1-4 for PhD)
+   - Add optional notes
    - Click "Add Course"
 
-4. **Plan Your Schedule**:
-   - Drag a course from the list on the left
-   - Drop it into a quarter slot in the calendar
-   - MSc courses will automatically occupy 2 consecutive quarters
-   - PhD courses occupy only 1 quarter
-
-5. **Manage Your Plan**:
-   - Click the × button on any placed course to remove it
-   - Click "Clear Plan" to start over
-   - Click "Save Plan" to save your progress (auto-saves on changes)
-
-6. **Filter Courses**: Use the checkboxes in the sidebar to filter courses by category
+5. **Delete Repository Courses**:
+   - Hover over any course in the sidebar
+   - Click the × button to remove it from the list
 
 ## Course Categories
 
-- **Category A**: Core theoretical courses (e.g., Microeconomic Theory, Macroeconomic Theory)
-- **Category B**: Applied economics courses (e.g., Development Economics, Public Economics)
-- **Category C**: Specialized courses (e.g., Financial Economics, Behavioral Economics)
-- **Extra**: Additional courses (e.g., Research Methods, Economic History)
-- **PhD**: Doctoral-level courses (e.g., Advanced Microeconomics)
+- **Base** (Purple): Compulsory foundation courses
+  - Examples: Adv. Maths, Adv. Stats, FSS I, FSS II, Econometrics
+
+- **Category A - Core** (Red): Advanced theoretical courses
+  - Examples: Adv. Macro, Adv. Micro, Macroeconometrics, Microeconometrics
+
+- **Category B - Field** (Blue): Applied economics courses
+  - Examples: Development Economics, Game Theory, Labour Economics, Political Economics, Public Economics
+
+- **Category C - Topics** (Green): Specialized and interdisciplinary courses
+  - Examples: Behavioral Economics and Finance, Decision Theory, Econ of Crime, Time Series Analysis
+
+- **Extra** (Orange): Graduate School electives from other MSc programs
+  - Examples: Asset Management, Blockchain and Crypto Assets, Private Equity and Venture Capital, Machine Learning for Finance
+
+- **PhD** (Purple): Doctoral-level courses (require application and selection)
+  - Examples: Advanced Macro 1-4, Microeconomics 1-4, Structural Econometrics, Political Economics Advanced
 
 ## Technical Details
 
 - Pure HTML, CSS, and JavaScript (no frameworks required)
 - Uses localStorage for data persistence
-- Responsive design for different screen sizes
-- Color-coded courses by category
+- Responsive design with CSS Grid and Flexbox
 
 ## Browser Compatibility
 
@@ -64,7 +96,13 @@ Works in all modern browsers:
 
 ## Installation
 
-No installation required! Just open `index.html` in your browser.
+No installation required! Just download and open `index.html` in your browser.
+
+## Files
+
+- `index.html` - Main HTML structure
+- `styles.css` - Styling and layout
+- `script.js` - Application logic and course data
 
 ## License
 
