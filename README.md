@@ -15,7 +15,7 @@ A comprehensive web-based application for planning your Bocconi MSc in Economics
 </p>
 
 <p align="center">
-  <b>MSc Economics Study Plan Builder</b><br/>
+  <b>ESS Study Plan Builder</b><br/>
   Drag-and-drop course planner • Import/Export • Credits tracking • Multiple plans
 </p>
 
