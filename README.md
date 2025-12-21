@@ -2,6 +2,27 @@
 
 A comprehensive web-based application for planning your Bocconi MSc in Economics and Social Sciences course schedule with drag-and-drop functionality, multiple plan management, credits tracking, and import/export capabilities.
 
+<p align="center">
+  <a href="https://stfgrz.github.io/ess-study_plan_builder/">
+    <img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Open%20App-2ea44f?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/stfgrz/ess-study_plan_builder">
+    <img alt="Repository" src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://github.com/stfgrz/ess-study_plan_builder/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/stfgrz/ess-study_plan_builder?style=for-the-badge" />
+  </a>
+</p>
+
+<p align="center">
+  <b>MSc Economics Study Plan Builder</b><br/>
+  Drag-and-drop course planner • Import/Export • Credits tracking • Multiple plans
+</p>
+
+<p align="center">
+  👉 <a href="https://stfgrz.github.io/ess-study_plan_builder/"><b>Open the app</b></a>
+</p>
+
 ## Features
 
 ### Core Functionality
@@ -89,7 +110,7 @@ A comprehensive web-based application for planning your Bocconi MSc in Economics
 
 ### Getting Started
 
-1. **Open the Application**: Open `index.html` in your web browser (Chrome, Firefox, or Safari)
+1. **Open the Application**: Click on the link `[index.html](https://stfgrz.github.io/ess-study_plan_builder/)` 
 
 2. **View Guidelines**: Click "📋 Course Selection Guidelines" button for program requirements
 
