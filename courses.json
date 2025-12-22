@@ -35,8 +35,17 @@
     "notes": "",
     "credits": 6
   },
-  {
+      {
     "id": "base5",
+    "name": "Behavioural Skills seminar",
+    "category": "base",
+    "type": "msc",
+    "timing": "S1",
+    "notes": "Just a pass/fail multiple-choice exam, which can be skipped by fully attending the 2-days seminar",
+    "credits": 2
+  },
+  {
+    "id": "base6",
     "name": "Fss II (A)",
     "category": "base",
     "type": "msc",
@@ -45,7 +54,7 @@
     "credits": 6
   },
   {
-    "id": "base6",
+    "id": "base7",
     "name": "Fss II (B)",
     "category": "base",
     "type": "msc",
@@ -54,7 +63,7 @@
     "credits": 6
   },
   {
-    "id": "base7",
+    "id": "base8",
     "name": "Econometrics",
     "category": "base",
     "type": "msc",
@@ -63,7 +72,7 @@
     "credits": 8
   },
   {
-    "id": "base8",
+    "id": "base9",
     "name": "English",
     "category": "base",
     "type": "msc",
@@ -72,22 +81,13 @@
     "credits": 2
   },
   {
-    "id": "base9",
+    "id": "base10",
     "name": "2nd Language",
     "category": "base",
     "type": "msc",
     "timing": "S2",
     "notes": "",
     "credits": 4
-  },
-    {
-    "id": "base10",
-    "name": "Behavioural Skills seminar",
-    "category": "base",
-    "type": "msc",
-    "timing": "S1",
-    "notes": "Just a pass/fail multiple-choice exam, which can be skipped by fully attending the 2-days seminar",
-    "credits": 2
   },
   {
     "id": "a1",
