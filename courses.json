@@ -6,7 +6,7 @@
     "type": "msc",
     "timing": "S1",
     "notes": "",
-    "credits": 6
+    "credits": 8
   },
   {
     "id": "base2",
@@ -15,7 +15,7 @@
     "type": "msc",
     "timing": "S1",
     "notes": "",
-    "credits": 6
+    "credits": 8
   },
   {
     "id": "base3",
@@ -60,7 +60,7 @@
     "type": "msc",
     "timing": "S2",
     "notes": "",
-    "credits": 6
+    "credits": 8
   },
   {
     "id": "base8",
@@ -69,7 +69,7 @@
     "type": "msc",
     "timing": "S2",
     "notes": "",
-    "credits": 6
+    "credits": 2
   },
   {
     "id": "base9",
@@ -78,7 +78,7 @@
     "type": "msc",
     "timing": "S2",
     "notes": "",
-    "credits": 6
+    "credits": 4
   },
   {
     "id": "a1",
