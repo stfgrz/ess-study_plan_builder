@@ -623,7 +623,251 @@ function validateAndImportPlan(importData) {
 // ============================================================================
 
 function printPlan() {
-    window.print();
+    const activePlan = getActivePlan();
+    if (!activePlan) {
+        alert('No active plan to print');
+        return;
+    }
+    
+    const planData = getActivePlanData();
+    const allCourses = getAllCourses();
+    const summary = computePlanSummary();
+    
+    // Group courses by semester
+    const coursesBySemester = {
+        'Y1S1': [],
+        'Y1S2': [],
+        'Y2S1': [],
+        'Y2S2': []
+    };
+    
+    Object.entries(planData.placements).forEach(([key, coursesInQuarter]) => {
+        if (!coursesInQuarter || coursesInQuarter.length === 0) return;
+        
+        const [year, quarter] = key.split('-').map(Number);
+        const semester = getSemesterForQuarter(year, quarter);
+        
+        coursesInQuarter.forEach(placedCourse => {
+            const courseDef = allCourses.find(c => c.id === placedCourse.id);
+            if (!courseDef) return;
+            
+            const credits = courseDef.credits || DEFAULT_CREDITS_MSC;
+            
+            // For MSc courses, only add once per semester (at the start quarter)
+            if (placedCourse.type === 'msc' && placedCourse.isStart) {
+                coursesBySemester[semester].push({
+                    name: placedCourse.name,
+                    category: placedCourse.category,
+                    credits: credits,
+                    type: 'msc'
+                });
+            } else if (placedCourse.type === 'phd') {
+                // For PhD courses, only show them in the specific quarter they're in
+                const halfSemester = (quarter === 1 || quarter === 3) ? 'first' : 'second';
+                coursesBySemester[semester].push({
+                    name: placedCourse.name,
+                    category: placedCourse.category,
+                    credits: credits,
+                    type: 'phd',
+                    halfSemester: halfSemester,
+                    quarter: quarter
+                });
+            }
+        });
+    });
+    
+    // Create print window content
+    const printWindow = window.open('', '_blank');
+    const printContent = `
+<!DOCTYPE html>
+<html>
+<head>
+    <title>${escapeHtml(activePlan.name)} - Study Plan</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 1.5cm;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 18pt;
+            margin: 0 0 10px 0;
+            text-align: center;
+        }
+        
+        .plan-info {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 12pt;
+        }
+        
+        .total-credits {
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        
+        .semester-section {
+            margin-bottom: 25px;
+            page-break-inside: avoid;
+        }
+        
+        .semester-title {
+            font-size: 13pt;
+            font-weight: bold;
+            margin-bottom: 8px;
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border-left: 4px solid #333;
+        }
+        
+        .semester-half {
+            margin-bottom: 15px;
+        }
+        
+        .half-title {
+            font-size: 11pt;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+            color: #555;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+        
+        th {
+            background-color: #e8e8e8;
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ccc;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .no-courses {
+            font-style: italic;
+            color: #888;
+            padding: 10px;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>${escapeHtml(activePlan.name)}</h1>
+    <div class="plan-info">
+        <div class="total-credits">Total Credits: ${summary.totalCredits}</div>
+    </div>
+    
+    ${generateSemesterTable('Year 1 - Semester 1', coursesBySemester.Y1S1)}
+    ${generateSemesterTable('Year 1 - Semester 2', coursesBySemester.Y1S2)}
+    ${generateSemesterTable('Year 2 - Semester 1', coursesBySemester.Y2S1)}
+    ${generateSemesterTable('Year 2 - Semester 2', coursesBySemester.Y2S2)}
+    
+    <script>
+        window.onload = function() {
+            window.print();
+            window.onafterprint = function() {
+                window.close();
+            };
+        };
+    </script>
+</body>
+</html>
+    `;
+    
+    printWindow.document.write(printContent);
+    printWindow.document.close();
+}
+
+function generateSemesterTable(semesterTitle, courses) {
+    // Separate MSc and PhD courses
+    const mscCourses = courses.filter(c => c.type === 'msc');
+    const phdCoursesQ1Q3 = courses.filter(c => c.type === 'phd' && c.halfSemester === 'first');
+    const phdCoursesQ2Q4 = courses.filter(c => c.type === 'phd' && c.halfSemester === 'second');
+    
+    let html = `<div class="semester-section">
+        <div class="semester-title">${semesterTitle}</div>`;
+    
+    // First half (Q1 or Q3) - MSc + PhD courses
+    const firstHalfCourses = [...mscCourses, ...phdCoursesQ1Q3];
+    if (firstHalfCourses.length > 0) {
+        html += `<div class="semester-half">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 55%;">Course Name</th>
+                        <th style="width: 25%;">Category</th>
+                        <th style="width: 20%;">Credits</th>
+                    </tr>
+                </thead>
+                <tbody>`;
+        
+        firstHalfCourses.forEach(course => {
+            html += `<tr>
+                <td>${escapeHtml(course.name)}</td>
+                <td>${escapeHtml(course.category)}</td>
+                <td>${course.credits}</td>
+            </tr>`;
+        });
+        
+        html += `</tbody></table></div>`;
+    }
+    
+    // Second half (Q2 or Q4) - Only PhD courses
+    if (phdCoursesQ2Q4.length > 0) {
+        html += `<div class="semester-half">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 55%;">Course Name</th>
+                        <th style="width: 25%;">Category</th>
+                        <th style="width: 20%;">Credits</th>
+                    </tr>
+                </thead>
+                <tbody>`;
+        
+        phdCoursesQ2Q4.forEach(course => {
+            html += `<tr>
+                <td>${escapeHtml(course.name)}</td>
+                <td>${escapeHtml(course.category)}</td>
+                <td>${course.credits}</td>
+            </tr>`;
+        });
+        
+        html += `</tbody></table></div>`;
+    }
+    
+    // If no courses in this semester at all
+    if (firstHalfCourses.length === 0 && phdCoursesQ2Q4.length === 0) {
+        html += `<div class="no-courses">No courses scheduled</div>`;
+    }
+    
+    html += `</div>`;
+    return html;
 }
 
 // ============================================================================
@@ -1040,6 +1284,7 @@ function updateSummary() {
             <div class="summary-section">
                 <h4>Total Credits</h4>
                 <div class="summary-total">${summary.totalCredits}</div>
+                <div class="graduation-requirement">To graduate, 92 credits must be obtained through course completion</div>
             </div>
             
             <div class="summary-section">

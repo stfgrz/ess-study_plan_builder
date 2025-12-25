@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSc Economics - Study Plan Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MSc Economics Study Plan Builder</h1>
+            <p>Drag and drop courses into your study plan</p>
+            
+            <!-- Plan Management Controls -->
+            <div class="plan-controls">
+                <div class="plan-selector" id="planSelector">
+                    <label for="planSelect">Plan:</label>
+                    <select id="planSelect"></select>
+                    <button id="newPlanBtn" class="control-btn" title="New Plan">+ New</button>
+                    <button id="renamePlanBtn" class="control-btn" title="Rename Plan">✎ Rename</button>
+                    <button id="duplicatePlanBtn" class="control-btn" title="Duplicate Plan">⎘ Duplicate</button>
+                    <button id="deletePlanBtn" class="control-btn" title="Delete Plan">🗑 Delete</button>
+                </div>
+                
+                <div class="plan-actions">
+                    <button id="importPlanBtn" class="action-btn">📥 Import</button>
+                    <button id="exportPlanBtn" class="action-btn">📤 Export</button>
+                    <button id="printPlanBtn" class="action-btn">🖨 Print</button>
+                </div>
+            </div>
+            
+            <button id="instructionsBtn" class="instructions-btn" onclick="openInstructionsModal()">📋 Course Selection Guidelines</button>
+        </header>
+
+        <div class="main-content">
+            <!-- Course List Sidebar -->
+            <aside class="course-list">
+                <h2>Available Courses</h2>
+                
+                <div class="add-course-section">
+                    <h3>Add New Course</h3>
+                    <input type="text" id="newCourseName" placeholder="Course name">
+                    <select id="newCourseCategory">
+                        <option value="base">Base</option>
+                        <option value="A">Category A</option>
+                        <option value="B">Category B</option>
+                        <option value="C">Category C</option>
+                        <option value="extra">Extra</option>
+                        <option value="PhD">PhD</option>
+                    </select>
+                    <select id="newCourseType">
+                        <option value="msc">MSc (2 quarters)</option>
+                        <option value="phd">PhD (1 quarter)</option>
+                    </select>
+                    <select id="newCourseTiming">
+                        <option value="">-- Select Semester --</option>
+                        <option value="S1">Semester 1 (Q1-Q2)</option>
+                        <option value="S2">Semester 2 (Q3-Q4)</option>
+                    </select>
+                    <input type="number" id="newCourseCredits" placeholder="Credits (default: 6)" value="6" min="1" max="30">
+                    <textarea id="newCourseNotes" placeholder="Optional notes (e.g., professor, schedule, prerequisites...)"></textarea>
+                    <button id="addCourseBtn">Add Course</button>
+                </div>
+
+                <div class="toggle-section">
+                    <label class="toggle-label">
+                        <span>Show Notes</span>
+                        <div class="toggle-switch">
+                            <input type="checkbox" id="showNotesToggle" checked>
+                            <span class="toggle-slider"></span>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="filter-section">
+                    <h4>Category</h4>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="all" checked> Show All
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="base" checked> Base
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="A" checked> Category A
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="B" checked> Category B
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="C" checked> Category C
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="extra" checked> Extra
+                    </label>
+                    <label>
+                        <input type="checkbox" class="category-filter" value="PhD" checked> PhD
+                    </label>
+                </div>
+
+                <div class="filter-section">
+                    <h4>Timing</h4>
+                    <label>
+                        <input type="checkbox" class="timing-filter" value="all" checked> Show All
+                    </label>
+                    <label>
+                        <input type="checkbox" class="timing-filter" value="S1" checked> Semester 1 (Q1-Q2)
+                    </label>
+                    <label>
+                        <input type="checkbox" class="timing-filter" value="S2" checked> Semester 2 (Q3-Q4)
+                    </label>
+                </div>
+
+                <div id="courseListContainer" class="courses-container"></div>
+            </aside>
+
+            <!-- Calendar Grid -->
+            <main class="calendar">
+                <h2>Study Plan Calendar</h2>
+                <div class="years-container">
+                    <!-- Year 1 -->
+                    <div class="year">
+                        <h3>Year 1</h3>
+                        <div class="quarters">
+                            <div class="quarter" data-year="1" data-quarter="1">
+                                <h4>Q1</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="1" data-quarter="2">
+                                <h4>Q2</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="1" data-quarter="3">
+                                <h4>Q3</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="1" data-quarter="4">
+                                <h4>Q4</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Year 2 -->
+                    <div class="year">
+                        <h3>Year 2</h3>
+                        <div class="quarters">
+                            <div class="quarter" data-year="2" data-quarter="1">
+                                <h4>Q1</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="2" data-quarter="2">
+                                <h4>Q2</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="2" data-quarter="3">
+                                <h4>Q3</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                            <div class="quarter" data-year="2" data-quarter="4">
+                                <h4>Q4</h4>
+                                <div class="drop-zone"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button id="clearPlanBtn">Clear Plan</button>
+                    <button id="savePlanBtn">Save Plan</button>
+                </div>
+            </main>
+        </div>
+        
+        <!-- Summary Panel (sticky) -->
+        <aside class="summary-panel" id="summaryPanel">
+            <div class="summary-header">
+                <h3>Summary</h3>
+                <button id="toggleSummary" class="toggle-summary-btn" title="Toggle summary">−</button>
+            </div>
+            <div class="summary-content">
+                <div class="summary-section">
+                    <h4>Total Credits</h4>
+                    <div class="summary-total">0</div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Notes Modal -->
+    <div id="notesModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Course Notes</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="modalCourseName"></p>
+                <textarea id="modalNotes" placeholder="Add your notes here..."></textarea>
+            </div>
+            <div class="modal-footer">
+                <button id="saveNotesBtn">Save Notes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructions Modal -->
+    <div id="instructionsModal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3>📋 Course Selection Guidelines</h3>
+                <button class="modal-close" onclick="closeInstructionsModal()">&times;</button>
+            </div>
+            <div class="modal-body instructions-body">
+                <section class="instructions-section">
+                    <h4>First Year</h4>
+                    <ul>
+                        <li><strong>1 compulsory course</strong> to be chosen from:
+                            <ul>
+                                <li>Adv. Micro</li>
+                                <li>Adv. Macro</li>
+                            </ul>
+                        </li>
+                        <li><strong>1 compulsory course</strong> to be chosen from:
+                            <ul>
+                                <li>FSS II (A)</li>
+                                <li>FSS II (B)</li>
+                            </ul>
+                        </li>
+                        <li><strong>2 elective courses</strong></li>
+                    </ul>
+                </section>
+
+                <section class="instructions-section">
+                    <h4>Second Year</h4>
+                    <ul>
+                        <li><strong>4 elective courses</strong></li>
+                    </ul>
+                </section>
+
+                <section class="instructions-section">
+                    <h4>Requirements for Electives</h4>
+                    <ul>
+                        <li>At least <strong>1 from list A)</strong> Core</li>
+                        <li>At least <strong>1 from list B)</strong> Field</li>
+                        <li>At least <strong>1 from list C)</strong> Topics and Other Social Sciences and Mathematical and Quantitative Methods</li>
+                        <li>At least <strong>1 from lists A) + B) + C)</strong></li>
+                        <li><strong>2 other electives</strong>, which may include Graduate School electives (available to most MSc students at Bocconi), PhD-level courses and In-Depth Studies</li>
+                    </ul>
+                    <p class="note">The exams relating to electives can be taken at universities abroad as part of the programs offered by the International Relations Service. The criteria and credit approval procedure is specified in "Credit for Exams Passed at Universities Abroad".</p>
+                </section>
+
+                <section class="instructions-section">
+                    <h4>In-Depth Studies</h4>
+                    <p>In-depth studies involve students carrying out individual research on topics decided upon with the Course Director:</p>
+                    <ul>
+                        <li>Of a compulsory or elective provided for in the program structure and passed</li>
+                        <li>Of a PhD course entered in the study plan</li>
+                    </ul>
+                    <p>Student evaluation is based on a written assignment for each in-depth study, which is marked out of 30.</p>
+                    <p class="highlight">One in-depth study can be allocated to each course, worth a maximum of 3 credit points. Thus, <strong>ONLY one elective can be replaced by 2 in-depth studies</strong>, keeping other requirements in mind.</p>
+                    <p class="note">To have an in-depth study recorded in their study plan, students must contact the secretary's office of the Department of reference of the course chosen.</p>
+                </section>
+
+                <section class="instructions-section">
+                    <h4>Higher Level Courses (PhD)</h4>
+                    <p>Some highly-motivated and deserving students will be allowed to obtain academic credit from "higher level courses", i.e. courses held as part of the following Bocconi PhD Programs:</p>
+                    <ul>
+                        <li>PhD in Economics and Finance</li>
+                        <li>PhD in Business Administration and Management</li>
+                        <li>PhD in Social and Political Science</li>
+                        <li>PhD in Statistics and Computer Science</li>
+                    </ul>
+                    <p class="highlight">Students enrolled in ESS programs can choose up to <strong>3 PhD courses</strong>. Of these, they can request recognition of <strong>2 courses in place of MSc electives</strong> and <strong>1 course as an additional course</strong>.</p>
+                    
+                    <h5>Selection Requirements:</h5>
+                    <ul>
+                        <li>Graduation grade of undergraduate program of at least <strong>105/110</strong></li>
+                        <li>Students enrolled in the first or second year (as regular students 'in corso') for 2025-2026</li>
+                        <li>Applications from "reiscritti" and/or "fuori corso" will not be considered</li>
+                        <li>Cannot apply for PhD courses in the same semester as Exchange or Free-mover programs</li>
+                        <li>Students admitted to a Double Degree program are excluded</li>
+                    </ul>
+
+                    <h5>Selection Criteria:</h5>
+                    <ul>
+                        <li>Percentage of credit points earned (by end of February exam session)</li>
+                        <li>GPA (weighted on credit points)</li>
+                        <li>Letter of motivation</li>
+                        <li>CV</li>
+                        <li>Any GMAT or GRE certification</li>
+                        <li>Graduation grade of undergraduate degree</li>
+                    </ul>
+
+                    <p class="warning">⚠️ The recording is automatic and students cannot refuse the grade. Assessment of the PhD exam is made fairly without special regard for MSc students. Each course is worth <strong>6 credit points</strong>.</p>
+                </section>
+
+                <section class="instructions-section">
+                    <h4>Enhancing Experiences</h4>
+                    <p>Individual program structures include <strong>2 compulsory credit points</strong> dedicated to curricular supplementary activities in the second year.</p>
+                    <p>Activities may be completed in advance during the first year if spots are available. Examples include:</p>
+                    <ul>
+                        <li>IT courses (IT Education Center)</li>
+                        <li>Introductory Language courses (Language Center)</li>
+                        <li>Course on thesis writing</li>
+                        <li>Workshops in collaboration with ISPI</li>
+                        <li>Broaden Your Frame Seminars</li>
+                        <li>Media Experience</li>
+                        <li>Skills and self-empowerment courses</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="modal-footer">
+                <button onclick="closeInstructionsModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
