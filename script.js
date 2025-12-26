@@ -686,77 +686,89 @@ function printPlan() {
     <style>
         @page {
             size: A4;
-            margin: 1.5cm;
+            margin: 1cm;
         }
         
         body {
             font-family: Arial, sans-serif;
-            font-size: 11pt;
-            line-height: 1.4;
+            font-size: 9pt;
+            line-height: 1.3;
             color: #000;
             margin: 0;
-            padding: 20px;
+            padding: 10px;
         }
         
         h1 {
-            font-size: 18pt;
-            margin: 0 0 10px 0;
+            font-size: 14pt;
+            margin: 0 0 5px 0;
             text-align: center;
         }
         
         .plan-info {
             text-align: center;
-            margin-bottom: 20px;
-            font-size: 12pt;
+            margin-bottom: 15px;
+            font-size: 10pt;
         }
         
         .total-credits {
             font-weight: bold;
-            margin: 5px 0;
+            margin: 3px 0;
+        }
+        
+        .year-section {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        
+        .year-title {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-bottom: 8px;
+            padding: 6px 10px;
+            background-color: #667eea;
+            color: white;
+            border-radius: 3px;
+        }
+        
+        .semesters-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
         }
         
         .semester-section {
-            margin-bottom: 25px;
             page-break-inside: avoid;
         }
         
         .semester-title {
-            font-size: 13pt;
+            font-size: 10pt;
             font-weight: bold;
-            margin-bottom: 8px;
-            padding: 5px 10px;
+            margin-bottom: 5px;
+            padding: 4px 8px;
             background-color: #f0f0f0;
-            border-left: 4px solid #333;
-        }
-        
-        .semester-half {
-            margin-bottom: 15px;
-        }
-        
-        .half-title {
-            font-size: 11pt;
-            font-weight: bold;
-            margin: 10px 0 5px 0;
-            color: #555;
+            border-left: 3px solid #667eea;
         }
         
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
         
         th {
             background-color: #e8e8e8;
-            padding: 8px;
+            padding: 4px 6px;
             text-align: left;
             border: 1px solid #ccc;
             font-weight: bold;
+            font-size: 8pt;
         }
         
         td {
-            padding: 8px;
+            padding: 3px 6px;
             border: 1px solid #ccc;
+            font-size: 8pt;
         }
         
         tr:nth-child(even) {
@@ -766,7 +778,8 @@ function printPlan() {
         .no-courses {
             font-style: italic;
             color: #888;
-            padding: 10px;
+            padding: 8px;
+            font-size: 8pt;
         }
         
         @media print {
@@ -782,10 +795,21 @@ function printPlan() {
         <div class="total-credits">Total Credits: ${summary.totalCredits}</div>
     </div>
     
-    ${generateSemesterTable('Year 1 - Semester 1', coursesBySemester.Y1S1)}
-    ${generateSemesterTable('Year 1 - Semester 2', coursesBySemester.Y1S2)}
-    ${generateSemesterTable('Year 2 - Semester 1', coursesBySemester.Y2S1)}
-    ${generateSemesterTable('Year 2 - Semester 2', coursesBySemester.Y2S2)}
+    <div class="year-section">
+        <div class="year-title">Year 1</div>
+        <div class="semesters-grid">
+            ${generateSemesterTable('Semester 1', coursesBySemester.Y1S1)}
+            ${generateSemesterTable('Semester 2', coursesBySemester.Y1S2)}
+        </div>
+    </div>
+    
+    <div class="year-section">
+        <div class="year-title">Year 2</div>
+        <div class="semesters-grid">
+            ${generateSemesterTable('Semester 1', coursesBySemester.Y2S1)}
+            ${generateSemesterTable('Semester 2', coursesBySemester.Y2S2)}
+        </div>
+    </div>
     
     <script>
         window.onload = function() {
@@ -815,8 +839,7 @@ function generateSemesterTable(semesterTitle, courses) {
     // First half (Q1 or Q3) - MSc + PhD courses
     const firstHalfCourses = [...mscCourses, ...phdCoursesQ1Q3];
     if (firstHalfCourses.length > 0) {
-        html += `<div class="semester-half">
-            <table>
+        html += `<table>
                 <thead>
                     <tr>
                         <th style="width: 55%;">Course Name</th>
@@ -834,13 +857,12 @@ function generateSemesterTable(semesterTitle, courses) {
             </tr>`;
         });
         
-        html += `</tbody></table></div>`;
+        html += `</tbody></table>`;
     }
     
     // Second half (Q2 or Q4) - Only PhD courses
     if (phdCoursesQ2Q4.length > 0) {
-        html += `<div class="semester-half">
-            <table>
+        html += `<table>
                 <thead>
                     <tr>
                         <th style="width: 55%;">Course Name</th>
@@ -858,7 +880,7 @@ function generateSemesterTable(semesterTitle, courses) {
             </tr>`;
         });
         
-        html += `</tbody></table></div>`;
+        html += `</tbody></table>`;
     }
     
     // If no courses in this semester at all
