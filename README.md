@@ -1,5 +1,8 @@
 # ESS Study Plan Builder
 
+> [!WARNING]
+> This project is still a **beta**, and a number of **features** (including, but not limited to, [i] printing your study plan and [ii] number of credits by course type) **may not work as intended**.
+
 A comprehensive web-based application for planning your Bocconi MSc in Economics and Social Sciences course schedule with drag-and-drop functionality, multiple plan management, credits tracking, and import/export capabilities.
 
 <p align="center">
@@ -388,7 +391,7 @@ For issues, questions, or suggestions:
 
 ## Version History
 
-### Version 2.0 (Current)
+### Version 0.2 (Current) [Beta]
 - Multi-plan management
 - Credits tracking and summary panel
 - Import/export functionality
@@ -397,7 +400,7 @@ For issues, questions, or suggestions:
 - Storage migration from v1
 - Enhanced UI with plan controls
 
-### Version 1.0
+### Version 0.1 [Beta]
 - Single plan support
 - Basic drag-and-drop
 - Course repository management
